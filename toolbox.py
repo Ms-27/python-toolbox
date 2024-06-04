@@ -21,7 +21,7 @@ def timer(f):
 #multithread for a list + tqdm
 def handle_requests(func, issues: list, num_workers: int = 5):
     '''
-        Function to execute function on several items of an list by exploiitng multithreading 
+        Function to execute a function on several items of an list by exploiting multithreading 
     '''
     with concurrent.futures.ThreadPoolExecutor(max_workers=num_workers) as executor:
         return list(tqdm(executor.map(function, issues), total=len(issues)))
