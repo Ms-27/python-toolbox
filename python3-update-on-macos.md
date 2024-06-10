@@ -2,5 +2,5 @@
 
 ## on terminal
 
-unlink /usr/local/bin/python3
+unlink /usr/local/bin/python3  
 ln -sf python3.XX python3
