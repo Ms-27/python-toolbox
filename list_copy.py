@@ -1,6 +1,5 @@
 import copy
 
-
 # do a shallow copy of a list:
 #  new list but , elements remain the same objetcs
 new_list = list[:]
