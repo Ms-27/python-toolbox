@@ -1,4 +1,4 @@
-# Update python3 command on macOS after installing new version of python
+## Update python3 command on macOS after installing new version of python
 
 * on terminal
 
