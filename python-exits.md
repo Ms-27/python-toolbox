@@ -11,8 +11,10 @@ has same specificities as exit()
 ### sys.exit()
 exit cleanly/consistently, generally supposed to stay untouched
 sys module is always available
-mostly prefered
+> [!IMPORTANT]
+> mostly prefered
 
 ### os._exit()
 'unclean' exit, terminate abruptly -> kill workers in multiprocessing, avoid invoking cleanup
+> [!WARNING]
 > immediate exit   
