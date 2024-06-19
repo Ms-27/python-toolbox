@@ -1,7 +1,7 @@
 ## Python Exits
 
 ### exit()
-allowed to be replaced with other things by tools
+allowed to be replaced with other things by tools  
 it works only if the site module is imported, so should be used in the interpreter only
 
 ### quit()
